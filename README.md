@@ -66,11 +66,11 @@ Rejoignez notre communauté active et suivez nos actualités :
 
 | Plateforme | Lien |
 | :--- | :--- |
-| 💬 **Discord** | [Rejoindre le serveur Loutik](https://discord.gg/votre-lien) |
-| 💼 **LinkedIn** | [Suivre Loutik](https://linkedin.com/company/votre-page) |
-| 🎵 **TikTok** | [@LoutikOrg](https://tiktok.com/@votre-compte) |
-| 📸 **Instagram** | [@LoutikOrg](https://instagram.com/votre-compte) |
-| 🌐 **Site Web** | [www.loutik.ch](https://www.loutik.ch) |
+| 💬 **Discord** | [Rejoindre le serveur Loutik](https://discord.gg/yqQJhYM9tK) |
+| 💼 **LinkedIn** | [Suivre Loutik](https://linkedin.com/company/loutik) |
+| 🎵 **TikTok** | [@LoutikOrg](https://tiktok.com/@loutikorg) |
+| 📸 **Instagram** | [@LoutikOrg](https://instagram.com/loutikorg) |
+| 🌐 **Site Web** | [www.loutik.fr](https://www.loutik.fr) |
 
 ---
 
