@@ -77,5 +77,5 @@ Rejoignez notre communauté active et suivez nos actualités :
 <p align="center">
   <strong>Loutik</strong> — Reprenez le contrôle de vos données.<br>
   <sub>Hébergé avec ❤️ en Suisse grâce à notre partenaire <a href="https://www.infomaniak.com">Infomaniak</a>.</sub><br>
-  <sub>© 2026 Loutik. Open Source & Éthique.</sub>
+  <sub>© 2026 Loutik. Reprenez le contrôle de vos données !</sub>
 </p>
