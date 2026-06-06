@@ -1,0 +1,18 @@
+name: "🛡️ Security"
+
+on:
+  workflow_call:
+
+jobs:
+  trufflehog:
+    name: TruffleHog Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Run TruffleHog Filesystem Scan
+        run: |
+          docker run --rm -v ${{ github.workspace }}:/pwd trufflesecurity/trufflehog:latest filesystem /pwd --no-verification --fail
