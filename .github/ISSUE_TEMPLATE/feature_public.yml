@@ -1,0 +1,36 @@
+name: 💡 Suggestion de fonctionnalité (Public)
+description: Proposez une nouvelle idée ou une amélioration pour le projet.
+title: "[Feature] : <brève description de l'idée>"
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de contribuer à l'amélioration du projet ! 
+        Veuillez remplir ce formulaire de manière argumentée pour nous aider à évaluer votre proposition.
+
+  - type: textarea
+    id: need
+    attributes:
+      label: 🤔 Expression du besoin
+      description: Quel est le problème actuel que vous rencontrez ou le besoin non satisfait ?
+      placeholder: "Ex: Actuellement, lorsque j'utilise le bot, il est difficile de..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: added-value
+    attributes:
+      label: ✨ Valeur ajoutée (Solution proposée)
+      description: Comment cette fonctionnalité améliorerait-elle le projet et quelle solution envisagez-vous ?
+      placeholder: "Ex: Cela permettrait de gagner du temps en automatisant..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternatives considérées (Optionnel)
+      description: Avez-vous contourné le problème autrement en attendant ? Y a-t-il d'autres solutions possibles ?
+    validations:
+      required: false

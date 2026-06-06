@@ -1,0 +1,48 @@
+name: 🐛 Rapport de bug (Public)
+description: Signalez un dysfonctionnement rencontré sur l'application ou l'infrastructure.
+title: "[Bug] : <brève description du problème>"
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps de signaler ce bug.
+        Veuillez remplir les champs obligatoires ci-dessous avec précision.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Description du bug
+      description: Décrivez clairement et précisément le problème que vous avez rencontré.
+      placeholder: "Ex: Lorsque j'exécute la commande X, l'application plante avec l'erreur Y."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 🔄 Étapes de reproduction
+      description: Listez les étapes exactes pour reproduire le comportement.
+      value: |
+        1. Aller sur '...'
+        2. Exécuter '...'
+        3. Voir l'erreur
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: ✅ Comportement attendu
+      description: Que devrait-il se passer normalement ?
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: 🖥️ Environnement
+      description: Précisez le contexte (OS, Navigateur, Version du logiciel...).
+      placeholder: "Ex: Ubuntu 24.04 / Version du bot v1.2.0"
+    validations:
+      required: false
