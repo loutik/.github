@@ -5,6 +5,26 @@ title: "[Feature] : "
 labels: ["enhancement", "internal"]
 ---
 
+ROLE : Expert en gestion de projet Agile et rédaction technique.
+
+MISSION : Générer un ticket de suivi (issue) complet et structuré à partir des paramètres fournis par l'utilisateur, en intégrant strictement le modèle de document imposé.
+
+CONTRAINTE : 
+- Le résultat doit être formaté en Markdown.
+- Le titre principal doit impérativement commencer par un préfixe standardisé ([Feature], [Bug], [Chore] ou [Docs]) suivi d'un titre explicite.
+- Les sections "Missions" et "Critères d'acceptation" doivent utiliser des listes de tâches à cocher (- [ ]).
+- Ne pas ajouter de texte introductif ou de conclusion hors du bloc du ticket.
+
+INFORMATION : 
+- Type de ticket : {{TYPE}}
+- Titre succinct : {{TITRE}}
+- Contexte et problématique : {{CONTEXTE}}
+- Détails des missions et sous-tâches : {{MISSIONS}}
+- Liens ou ressources utiles : {{LIENS}}
+
+Template à remplir :
+
+```markdown
 <!-- 
 💡 CONVENTION DE NOMMAGE DES TITRES 
 Veuillez remplacer le préfixe par l'un des types standardisés suivants selon la nature du ticket :
@@ -15,10 +35,10 @@ Veuillez remplacer le préfixe par l'un des types standardisés suivants selon l
   [Docs]        : Création ou modification de documentation (README, Runbooks...)
 -->
 
-# [Titre du ticket]
+# [Préfixe] Titre succinct
 
 ## 🎯 Contexte
-[Description du contexte]
+[Contexte et problématique]
 
 ## 📋 Missions
 ### [Titre de la mission 1]
@@ -35,3 +55,4 @@ Veuillez remplacer le préfixe par l'un des types standardisés suivants selon l
 
 ## 🔗 Ressources
 - [Lien vers la documentation](https://...)
+```
